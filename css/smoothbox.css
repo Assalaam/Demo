@@ -136,7 +136,7 @@ body, html {
 /* buttons */
 .sb-nav {
     position:absolute;
-    top: 10px;
+    bottom: -40px;
     width: 100%;
     margin: 0 auto;
     display: none;
