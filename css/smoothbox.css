@@ -164,7 +164,7 @@ body, html {
     transition:all .15s ease-out;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     filter: alpha(opacity=30);
-    opacity:0.3;
+    opacity:0.4;
 }
 .sb-next {
     display: inline-block;
@@ -176,7 +176,7 @@ body, html {
     -webkit-transition:all .15s ease-out;
     -moz-transition:all .15s ease-out;
     transition:all .15s ease-out;
-    opacity:0.3;
+    opacity:0.4;
 }
 .sb-cancel {
     display: inline-block;
@@ -190,7 +190,7 @@ body, html {
     transition:all .15s ease-out;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     filter: alpha(opacity=30);
-    opacity:0.3;
+    opacity:0.4;
 }
 .sb-nav a:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
