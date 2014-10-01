@@ -12,10 +12,4 @@ $(function() {
 	$(window).scroll(function() {
 		 sticky_nav();
 	});
-	
-	// NOT required:
-	// for this demo disable all links that point to "#"
-	$('a[href="#"]').click(function(event){ 
-		event.preventDefault(); 
-	});
 });
