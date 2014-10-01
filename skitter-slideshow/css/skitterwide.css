@@ -1,6 +1,5 @@
-/* =Skitter styles
+/* Skitter styles
 ----------------------------------------------- */
-
 .box_skitter {
 	position: relative;
 	width:100%;
@@ -10,9 +9,9 @@
 }
 
 .box_skitter img {
-    min-width: 1000px;
-    max-width: none;
-    height:450px;
+	min-width: 1000px;
+	max-width: none;
+	height:450px;
 } 
 
 /* Tip for stildv */
@@ -23,7 +22,7 @@
 .box_skitter .container_skitter {
 	overflow: hidden;
 	position: relative; 
-    width:99%;
+	width:99%;
 }
 
 .box_skitter .image {
@@ -34,7 +33,7 @@
 	display: none;
 }
 
-/* =Box clone
+/* Box clone
 -------------------------------------------------------------- */
 .box_skitter .box_clone {
 	position: absolute;
@@ -53,7 +52,7 @@
 	z-index: 20; 
 }
 
-/* =Navigation
+/* Navigation
 -------------------------------------------------------------- */
 .box_skitter .prev_button {
 	position: absolute;
@@ -89,7 +88,7 @@
 	opacity: 0.9 !important;
 }
 
-/* =Numbers
+/* Numbers
 -------------------------------------------------------------- */
 .box_skitter .info_slide {
 	position: absolute;
@@ -131,8 +130,7 @@
 	margin: 0 5px 0 0;
 }
 
-/* =Thumbs
-	Change width and height to customization dimension thumb
+/* Thumbs Change width and height to customization dimension thumb
 -------------------------------------------------------------- */
 .box_skitter .container_thumbs {
 	position: relative;
@@ -192,7 +190,7 @@
 	border: 0px solid #333;
 }
 
-/* =Dots
+/* Dots
 -------------------------------------------------------------- */
 .box_skitter .info_slide_dots {
 	position: absolute;
@@ -231,7 +229,7 @@
 	margin: 0 5px 0 0;
 }
 
-/* =Loading
+/* Loading
 -------------------------------------------------------------- */
 .loading {
 	position: absolute;
@@ -247,7 +245,7 @@
 	height: 32px;
 }
 
-/* =Label
+/* Label
 -------------------------------------------------------------- */
 
 .box_skitter .label_skitter {
@@ -258,20 +256,20 @@
 	color: #fff;
 	display: none;
 	background: rgba(0,0,0,.6);
-    padding: 5px;
-    width: 80%!important;
+	padding: 5px;
+	width: 80%!important;
 }
 
 .box_skitter .label_skitter a {
 	padding-left: 10px;
 	font: bold 16px 'arial narrow';
-    text-transform: uppercase; 
-    color: #00F5FF;
-    display:inline-block;
+	text-transform: uppercase; 
+	color: #00F5FF;
+	display:inline-block;
 }
 
 .box_skitter .label_skitter a:hover {
-    color: #F5FF00;
+	color: #F5FF00;
 }
 
 .box_skitter .label_skitter p {
@@ -284,13 +282,13 @@
 	background: #fff;
 	position: absolute;
 	top: 7px;
-    left: 0px;
+	left: 0px;
 	height: 2px;
 	width: 100%;
 	z-index: 99;
 }
 
-/* =Preview slide
+/* Preview slide
 -------------------------------------------------------------- */
 .box_skitter .preview_slide {
 	display: none;
@@ -317,7 +315,7 @@
 	position: absolute !important;
 	top: 0;
 	left: 0;
-    padding:0;
+	padding:0;
 }
 
 .box_skitter .preview_slide ul li {
@@ -339,7 +337,7 @@
 	width: 100% !important;
 }
 
-/* =Focus
+/* Focus
 -------------------------------------------------------------- */
 #overlay_skitter {
 	position: absolute;
@@ -392,7 +390,7 @@
 	opacity: 0.5 !important;
 }
 
-/* =Example for dimenions
+/* Example for dimenions
 -------------------------------------------------------------- */
 .box_skitter_clean {
 	width: 100%;
@@ -404,7 +402,7 @@
 	margin-bottom: 10px;
 }
 
-/* =Default theme
+/* Default theme
 -------------------------------------------------------------- */
 .box_skitter .focus_button, 
 .box_skitter .next_button, 
@@ -412,7 +410,7 @@
 .box_skitter .play_pause_button 
 {
 	display: block;
-	background: url('../images/sprite-default.png') no-repeat;
+	background: url("https://lh6.googleusercontent.com/-_TNmp66eaC0/VCww8LcVt0I/AAAAAAAAMBk/th8SPSSJLvg/s1600/sprite-default.png") no-repeat;
 }
 
 .box_skitter .next_button {
@@ -445,7 +443,7 @@
 	height: 42px;
 }
 
-/* =Minimalist theme
+/* Minimalist theme
 -------------------------------------------------------------- */
 .skitter-minimalist .prev_button, 
 .skitter-minimalist .next_button, 
@@ -453,7 +451,7 @@
 .skitter-minimalist .focus_button 
 {
 	display: block;
-	background: url('../images/sprite-minimalist.png') no-repeat !important;
+	background: url("https://lh4.googleusercontent.com/-GPsKG6HJS4A/VCww78tcqxI/AAAAAAAAMBU/kNExV2EO2g8/s1600/sprite-minimalist.png") no-repeat !important;
 }
 
 .skitter-minimalist .prev_button {
@@ -513,7 +511,7 @@
 	box-shadow: rgba(255,255,255,0.2) 1px 1px 0;
 }
 
-/* =Round theme
+/* Round theme
 -------------------------------------------------------------- */
 .skitter-round .prev_button, 
 .skitter-round .next_button, 
@@ -521,7 +519,7 @@
 .skitter-round .focus_button 
 {
 	display: block;
-	background: url('../images/sprite-round.png') no-repeat;
+	background: url("https://lh5.googleusercontent.com/-lP2uf5_wwq4/VCww8NSAUcI/AAAAAAAAMBc/HiqQcmNHHsQ/s1600/sprite-round.png") no-repeat;
 }
 
 .skitter-round .prev_button {
@@ -606,7 +604,7 @@
 	box-shadow: rgba(255,255,255,0.3) 1px 1px 0;
 }
 
-/* =Clean theme
+/* Clean theme
 -------------------------------------------------------------- */
 .skitter-clean .prev_button, 
 .skitter-clean .next_button, 
@@ -695,7 +693,7 @@
 	box-shadow: rgba(0,0,0,0.5) 1px 1px 0;
 }
 
-/* =Square theme
+/* Square theme
 -------------------------------------------------------------- */
 
 .skitter-square .play_pause_button, 
@@ -704,7 +702,7 @@
 .skitter-square .prev_button 
 {
 	display: block;
-	background: url('../images/sprite-square.png') no-repeat;
+	background: url("https://lh6.googleusercontent.com/-aJ9iRIzVdC0/VCww88xmwCI/AAAAAAAAMBo/pRni_LOEp-8/s1600/sprite-square.png") no-repeat;
 }
 
 .skitter-square .play_pause_button {
