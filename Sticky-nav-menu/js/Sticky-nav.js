@@ -1,16 +1,16 @@
 $(function() {
-	var sticky_navigation_offset_top = $('#sticky_nav').offset().top;
-	var sticky_navigation = function(){
+	var sticky_nav_offset_top = $('#sticky_nav').offset().top;
+	var sticky_nav = function(){
 		var scroll_top = $(window).scrollTop();
-		if (scroll_top > sticky_navigation_offset_top) { 
+		if (scroll_top > sticky_nav_offset_top) { 
 			$('#sticky_nav').css({ 'position': 'fixed', 'top':0, 'left':0 });
 		} else {
 			$('#sticky_nav').css({ 'position': 'relative' }); 
 		}   
 	};
-	sticky_navigation();
+	sticky_nav();
 	$(window).scroll(function() {
-		 sticky_navigation();
+		 sticky_nav();
 	});
 	
 	// NOT required:
