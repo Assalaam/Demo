@@ -242,7 +242,7 @@
 	color: #fff;
 	text-indent: -9999em;
 	overflow: hidden;
-	background: url('../images/ajax-loader.gif') no-repeat left top;
+	background: url("https://lh6.googleusercontent.com/-OV1-4E39vAA/VCwsTj2HGaI/AAAAAAAAMAI/FFJSzevxOgU/s1600/ajax-loader.gif") no-repeat left top;
 	width: 32px;
 	height: 32px;
 }
@@ -614,7 +614,7 @@
 .skitter-clean .focus_button 
 {
 	display: block;
-	background: url('../images/sprite-clean.png') no-repeat;
+	background: url("https://lh5.googleusercontent.com/-lXHJQJcSZQA/VCwsVDjE8JI/AAAAAAAAMAg/UDNjunSCB3U/s1600/sprite-clean.png") no-repeat;
 }
 
 .skitter-clean .prev_button {
