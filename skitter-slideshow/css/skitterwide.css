@@ -262,7 +262,7 @@
 
 .box_skitter .label_skitter a {
 	padding-left: 10px;
-	font: bold 16px 'arial narrow';
+	font: bold 16px 'arial narrow',arial;
 	text-transform: uppercase; 
 	color: #00F5FF;
 	display:inline-block;
