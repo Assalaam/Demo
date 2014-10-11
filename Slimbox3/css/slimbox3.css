@@ -96,8 +96,8 @@
 
 #lbCloseLink {
 	display: block;
-	right:5px;
-	bottom: 0px;
+	right:0px;
+	top: 15px;
 	position: absolute;
 	width: 40px;
 	height: 40px;
