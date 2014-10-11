@@ -37,11 +37,11 @@
 		)[0];
 
 		bottom = $('<div id="lbBottom" />').appendTo(center).append([
-			$('<a id="lbCloseLink" href="#" />').click(close)[0],
 			caption = $('<div id="lbCaption" />')[0],
 			number = $('<div id="lbNumber" />')[0],
 			prevLink = $('<a id="lbPrevLink" href="#" />').click(previous)[0],
 			nextLink = $('<a id="lbNextLink" href="#" />').click(next)[0],
+			$('<a id="lbCloseLink" href="#" />').click(close)[0],
 			$('<div style="clear: both;" />')[0]
 		])[0];
 	});
