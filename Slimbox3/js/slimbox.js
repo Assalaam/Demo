@@ -26,7 +26,7 @@
 			$([
 				overlay = $('<div id="lbOverlay" />').click(close)[0],
 				center = $('<div id="lbCenter" />').appendTo(overlay)[0]
-			]).css("display", "none")
+			])
 		);
 
 		image = $('<div id="lbImage" />').appendTo(center).append(
