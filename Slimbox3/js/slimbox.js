@@ -26,11 +26,12 @@
 			$([
 				overlay = $('<div id="lbOverlay" />').click(close)[0]
 				
-			]).css("display", "none")
+			]).css("display", "none");
+			$([
+				center = $('<div id="lbCenter" />').appendTo(overlay)[0];
+			])
 		);
-
-		center = $('<div id="lbCenter" />').appendTo(overlay)[0];
-
+	
 		image = $('<div id="lbImage" />').appendTo(center).append(
 			sizer = $('<div style="position: relative;" />').append([
 				prevLink = $('<a id="lbPrevLink" href="#" />').click(previous)[0],
