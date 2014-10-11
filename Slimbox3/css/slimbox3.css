@@ -53,7 +53,7 @@
 	height: 50px!important;
 	outline: none;
 	background: transparent url("https://lh3.googleusercontent.com/-TKmeDMLkzgk/VDh3FPqyX_I/AAAAAAAAMUc/abaw7JVsMk4/s128/prevbutton-clean.png") no-repeat;
-	opacity:0.4;
+	opacity:0.5;
 }
 
 #lbPrevLink:hover {
@@ -69,7 +69,7 @@
 	height: 50px!important;
 	outline: none;
 	background: transparent url("https://lh6.googleusercontent.com/-p6YLcKzgQ8Q/VDh3E9XO8HI/AAAAAAAAMUY/bekmq06DSh0/s128/nextbutton-clean.png") no-repeat;
-	opacity:0.4;
+	opacity:0.5;
 }
 
 #lbNextLink:hover {
@@ -101,7 +101,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background: transparent url("https://lh6.googleusercontent.com/-HLZpoVGrd9Y/VDh3bGaBESI/AAAAAAAAMUo/Txf9KO8Ni6s/s128/close-b.png") no-repeat;
+	background: transparent url("https://lh3.googleusercontent.com/-zy_n_t98vX0/VCIi3SwPJtI/AAAAAAAALbg/uG49iY0p2d0/s128/close.gif") no-repeat;
 	margin: 5px;
 	outline: none;
 }
