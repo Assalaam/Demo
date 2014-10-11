@@ -24,8 +24,8 @@
 		// Append the Slimbox HTML code at the bottom of the document
 		$("body").append(
 			$([
-				overlay = $('<div id="lbOverlay" />').click(close)[0].append(
-					center = $('<div id="lbCenter" />')
+				overlay = $('<div id="lbOverlay" />').append(
+					center = $('<div id="lbCenter" />').click(close)[0]
 				)[0];
 			]).css("display", "none")
 		);
