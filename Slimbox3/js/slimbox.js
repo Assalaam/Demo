@@ -30,6 +30,11 @@
 			]).css("display", "none")
 		);
 	
+		image = $('<div id="lbImage" />').appendTo(center).append(
+			sizer = $('<div style="position: relative;" />').append([
+				
+			])[0]
+		)[0];
 
 		bottom = $('<div id="lbBottom" />').appendTo(center).append([
 			$('<a id="lbCloseLink" href="#" />').click(close)[0],
