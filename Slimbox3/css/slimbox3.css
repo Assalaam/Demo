@@ -45,7 +45,7 @@
 }
 
 #lbPrevLink {
-	left: 0; 
+	right: 100px; 
 	display: block;
 	position: absolute;
 	top: 0;
@@ -61,7 +61,7 @@
 }
 
 #lbNextLink {
-	left: 50px;
+	right: 50px;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -86,6 +86,7 @@
 	position:absolute;
 	max-width:900px;
 	max-height:50px;
+	min-height: 40px;
 	width:100%;
 	bottom: 0;
 	overflow: hidden;
@@ -95,10 +96,9 @@
 
 #lbCloseLink {
 	display: block;
-	right:10px;
+	right:5x;
 	bottom: 0px;
 	position: absolute;
-	bottom:0;
 	width: 40px;
 	height: 40px;
 	background: transparent url("https://lh6.googleusercontent.com/-HLZpoVGrd9Y/VDh3bGaBESI/AAAAAAAAMUo/Txf9KO8Ni6s/s128/close-b.png") no-repeat;
