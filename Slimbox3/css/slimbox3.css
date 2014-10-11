@@ -29,7 +29,7 @@
 }
 
 .lbLoading {
-	background:url("../images/ajax-loader.gif") no-repeat center;
+	background:url("https://lh6.googleusercontent.com/-OV1-4E39vAA/VCwsTj2HGaI/AAAAAAAAMAI/FFJSzevxOgU/s128/ajax-loader.gif") no-repeat center;
 }
 
 #lbImage {
@@ -51,7 +51,7 @@
 	top: 0;
 	width: 50px;
 	outline: none;
-	background: transparent url("../images/prevbutton-clean.png") no-repeat;
+	background: transparent url("https://lh3.googleusercontent.com/-TKmeDMLkzgk/VDh3FPqyX_I/AAAAAAAAMUc/abaw7JVsMk4/s128/prevbutton-clean.png") no-repeat;
 	opacity:0.4;
 }
 
@@ -66,7 +66,7 @@
 	top: 0;
 	width: 50px;
 	outline: none;
-	background: transparent url("../images/nextbutton-clean.png") no-repeat;
+	background: transparent url("https://lh6.googleusercontent.com/-p6YLcKzgQ8Q/VDh3E9XO8HI/AAAAAAAAMUY/bekmq06DSh0/s128/nextbutton-clean.png") no-repeat;
 	opacity:0.4;
 }
 
@@ -88,7 +88,7 @@
 	float: right;
 	width: 15px;
 	height: 15px;
-	background: transparent url("../images/close.gif") no-repeat;
+	background: transparent url("https://lh6.googleusercontent.com/-HLZpoVGrd9Y/VDh3bGaBESI/AAAAAAAAMUo/Txf9KO8Ni6s/s128/close-b.png") no-repeat;
 	margin: 5px;
 	outline: none;
 }
