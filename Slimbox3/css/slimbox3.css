@@ -12,7 +12,7 @@
 }
 
 #lbCenter {
-	position: fixed;
+	position: relative;
 	z-index: 9999; 
 	overflow: hidden;
 	background-color: #000; 
@@ -54,7 +54,6 @@
 	outline: none;
 	background: transparent url("https://lh3.googleusercontent.com/-TKmeDMLkzgk/VDh3FPqyX_I/AAAAAAAAMUc/abaw7JVsMk4/s128/prevbutton-clean.png") no-repeat;
 	opacity:0.4;
-	z-index: 2;
 }
 
 #lbPrevLink:hover {
@@ -71,7 +70,6 @@
 	outline: none;
 	background: transparent url("https://lh6.googleusercontent.com/-p6YLcKzgQ8Q/VDh3E9XO8HI/AAAAAAAAMUY/bekmq06DSh0/s128/nextbutton-clean.png") no-repeat;
 	opacity:0.4;
-	z-index: 2;
 }
 
 #lbNextLink:hover {
@@ -90,7 +88,6 @@
 	max-height:50px;
 	width:100%;
 	bottom: 0;
-	z-index: 1;
 	overflow: hidden;
 	background-color: #000;
 	background: rgba(0,0,0,0.5);
