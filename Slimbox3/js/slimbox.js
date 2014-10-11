@@ -243,4 +243,4 @@
 
 })(jQuery);
 jQuery.extend(jQuery.easing,{easeOutElastic:function(f,h,e,l,k){var i=1.70158;var j=0;var g=l;if(h==0){return e}if((h/=k)==1){return e+l}if(!j){j=k*0.3}if(g<Math.abs(l)){g=l;var i=j/4}else{var i=j/(2*Math.PI)*Math.asin(l/g)}return g*Math.pow(2,-10*h)*Math.sin((h*k-i)*(2*Math.PI)/j)+l+e}});if(!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigator.userAgent));
-jQuery(function(a){a("a[href]").filter(function(){return/\.(jpg|png|gif)$/i.test(this.href)}).slimbox({.post-demo},null,function(b){return(this==b)||(this.parentNode&&(this.parentNode==b.parentNode))})});
+jQuery(function(a){a("a[href]").filter(function(){return/\.(jpg|png|gif)$/i.test(this.href)}).slimbox({".post-demo"},null,function(b){return(this==b)||(this.parentNode&&(this.parentNode==b.parentNode))})});
