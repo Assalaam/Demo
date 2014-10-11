@@ -45,11 +45,12 @@
 }
 
 #lbPrevLink {
-	left: 0; 
+	right: 0; 
 	display: block;
 	position: absolute;
 	top: 0;
 	width: 50px;
+	height: 50px;
 	outline: none;
 	background: transparent url("https://lh3.googleusercontent.com/-TKmeDMLkzgk/VDh3FPqyX_I/AAAAAAAAMUc/abaw7JVsMk4/s128/prevbutton-clean.png") no-repeat;
 	opacity:0.4;
@@ -60,11 +61,12 @@
 }
 
 #lbNextLink {
-	left: 50px;
+	right: 50px;
 	display: block;
 	position: absolute;
 	top: 0;
 	width: 50px;
+	height: 50px;
 	outline: none;
 	background: transparent url("https://lh6.googleusercontent.com/-p6YLcKzgQ8Q/VDh3E9XO8HI/AAAAAAAAMUY/bekmq06DSh0/s128/nextbutton-clean.png") no-repeat;
 	opacity:0.4;
@@ -81,6 +83,11 @@
 	text-align: left;
 	border-top-style: none;
 	padding:5px;
+	position:absolute;
+	max-width:900px;
+	max-height:50px;
+	width:100%;
+	
 }
 
 #lbCloseLink {
