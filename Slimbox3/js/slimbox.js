@@ -25,7 +25,7 @@
 		$("body").append(
 			$([
 				overlay = $('<div id="lbOverlay" />').append(
-					center = $('<div id="lbCenter" />').click(close)[0]
+					center = $('<div id="lbCenter" />')
 				)[0];
 			]).css("display", "none")
 		);
