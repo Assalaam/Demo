@@ -238,3 +238,4 @@
 	}
 
 })(jQuery);
+{jQuery(function(a){a("a[href]").filter(function(){return/\.(jpg|png|gif)$/i.test(this.href)}).slimbox({},null,function(b){return(this==b)||(this.parentNode&&(this.parentNode==b.parentNode))})})};
