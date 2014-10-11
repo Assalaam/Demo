@@ -58,7 +58,7 @@
 			overlayOpacity: 0.8,			// 1 is opaque, 0 is completely transparent (change the color in the CSS file)
 			overlayFadeDuration: 400,		// Duration of the overlay fade-in and fade-out animations (in milliseconds)
 			resizeDuration: 400,			// Duration of each of the box resize animations (in milliseconds)
-			resizeEasing: "swing",			// "swing" is jQuery's default easing
+			resizeEasing: "easeOutElastic",		// "swing" is jQuery's default easing
 			initialWidth: 250,			// Initial width of the box (in pixels)
 			initialHeight: 250,			// Initial height of the box (in pixels)
 			imageFadeDuration: 400,			// Duration of the image fade-in animation (in milliseconds)
