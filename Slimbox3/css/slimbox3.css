@@ -92,9 +92,11 @@
 
 #lbCloseLink {
 	display: block;
-	float: right;
-	width: 15px;
-	height: 15px;
+	right:10px;
+	position: absolute;
+	bottom:0;
+	width: 40px;
+	height: 40px;
 	background: transparent url("https://lh6.googleusercontent.com/-HLZpoVGrd9Y/VDh3bGaBESI/AAAAAAAAMUo/Txf9KO8Ni6s/s128/close-b.png") no-repeat;
 	margin: 5px;
 	outline: none;
